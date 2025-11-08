@@ -1,10 +1,5 @@
-#Write a recursive function to print numbers from 1 to n.
-i=1
-def numbers(n):
-    if i<n:
-        i+=1
-    return 
+#Write a function get_max_min(lst) that returns both the maximum and minimum numbers from a list.
 
-    print(numbers(10))
-
+def get_max_min(lst):
+    
 
