@@ -1,7 +1,23 @@
-#Write a function get_max_min(lst) that returns both the maximum and minimum numbers from a list.
+""" Create a class called Person
+It should have an __init__() method with name and age as parameters.
+Inside __init__(), store them in self.name and self.age.
+Create a display() method that prints the person’s details.
+Then write a main() function to create one person object and call the display() method. """
 
-def get_max_min():
-    a=2
-    print(a)
-    
+class Person:
+    def __init__(self,name,age):
+        self.name=name
+        self.age=age
+    def display(self):
+        print(f'{self.name},{self.age}')
+
+if __name__=="__main__":
+
+        p=Person("siri", 22)
+        p.display()
+
+
+
+
+
 
